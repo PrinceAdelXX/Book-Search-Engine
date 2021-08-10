@@ -3,7 +3,7 @@
 
 ## MERN Challenge: Book Search Engine
 
-## **Description**
+## Description
 
 An app that is a search engine for books through Google.
 
@@ -28,9 +28,9 @@ GNU General Public License v3.0
 
 
 
-## **Author**
+## Author
 
-Raghav Ramanan
+Raghav Ramanan/PrinceAdelXX
 
 
 [email](dialga1994.gmail.com)
