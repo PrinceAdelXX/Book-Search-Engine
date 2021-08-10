@@ -35,5 +35,10 @@ Raghav Ramanan/PrinceAdelXX
 
 [email](dialga1994.gmail.com)
 
-[GitHub](https://github.com/PrinceAdelXX/Book-Search-Engine)
+### URLS Of the Application
+
+GitHub: https://github.com/PrinceAdelXX/Book-Search-Engine
+
+Deployed App: https://princeadelxx.github.io/Book-Search-Engine/
+
 
