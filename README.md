@@ -5,7 +5,7 @@
 
 ## Description
 
-An app that is a search engine for books through Google.
+A Google Search Engine for Books
 
 ## **Screenshot**
 
