@@ -1,14 +1,9 @@
 # Book-Search-Engine
 
-Movie and TV show search engine and personal library.
-
-### Github : https://github.com/al1879083/Movies-TV-library/tree/main
-### Website : https://movie-tv-library.herokuapp.com/
-
+An app that lets you search for TV shows, movies, and books using a search engine
 
 ## Description
 A search engine using The Movie Database(https://www.themoviedb.org/) to search for all movies and shows. As well as collecting them into a personal library for you to use.
-
 
 
 ## Usage
@@ -19,9 +14,16 @@ A search engine using The Movie Database(https://www.themoviedb.org/) to search 
 
 
 
-## Technologies Use
-<p><a href="https://www.mongodb.com/">MongoDB</a></p>
-<p><a href="https://www.npmjs.com/package/express">Express.js</a></p>
-<p><a href="https://reactjs.org/">React.js</a></p>
-<p><a href="https://nodejs.org/">Node.js</a></p>
+## Technologies Used in the application
+MongoDB
+Express.js
+React.js
+Node.js
 
+## Link to GitHub Repo
+
+https://github.com/PrinceAdelXX/Book-Search-Engine
+
+## Link to Deployed Application
+
+https://potterscape.herokuapp.com/
