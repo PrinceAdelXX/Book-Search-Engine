@@ -1,66 +1,57 @@
-import { gql } from '@apollo/client';
+import gql from 'graphql-tag';
 
 export const LOGIN_USER = gql`
-mutation login($email: String!, $password: String!) {
+  mutation login($email: String!, $password: String!) {
     login(email: $email, password: $password) {
-        token
-        user {
-            _id
-            username
-            email
-        }
-        
+      token
+      user {
+        _id
+        username
+      }
     }
-}
-
+  }
 `;
+
 export const ADD_USER = gql`
-    mutation addUser($username: String!, $password: String!, $email: String!) {
-        addUser(username: $username, password: $password, email: $email) {
-            user {
-                _id
-                username
-                email
-            }
-            token 
-        }
+  mutation addUser($username: String!, $email: String!, $password: String!) {
+    addUser(username: $username, email: $email, password: $password) {
+      token
+      user {
+        _id
+        username
+      }
     }
+  }
 `;
 
-export const SAVE_BOOK = gql`
-    mutation saveBook($bookData: bookData!) {
-        saveBook(bookData: $bookData) {
-            _id
-            username
-            email
-            bookCount
-            savedBooks {
-                bookId
-                description
-                title
-                image
-                link
-                authors
-            }
-        }
+export const SAVE_MEDIA = gql`
+  mutation saveMedia($mediaData: MediaInput!) {
+    saveMedia(mediaData: $mediaData) {
+      _id
+      username
+      email
+      savedMedia {
+        mediaId
+        image
+        description
+        title
+      }
     }
+  }
 `;
 
-export const REMOVE_BOOK = gql`
-    mutation deleteBook ($bookId: String!) {
-        deleteBook(bookId:$bookId) {
-            _id
-            username
-            email
-            bookCount
-            savedBooks {
-                bookId
-                description
-                title
-                image
-                link
-                authors
-            }
-        }
+export const REMOVE_MEDIA = gql`
+  mutation removeMedia($mediaId: ID!) {
+    removeMedia(mediaId: $mediaId) {
+      _id
+      username
+      email
+      savedMedia {
+        mediaId
+        image
+        description
+        title
+      }
     }
+  }
 `;
