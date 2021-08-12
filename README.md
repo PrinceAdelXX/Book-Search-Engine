@@ -15,6 +15,7 @@ A search engine using The Movie Database(https://www.themoviedb.org/) to search 
 
 
 ## Technologies Used in the application
+
 MongoDB
 Express.js
 React.js
