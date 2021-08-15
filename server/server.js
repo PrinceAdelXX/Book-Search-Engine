@@ -38,7 +38,10 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/build/index.html'));
 });
 
+// console.log("MONGO_DB", process.env.MONGODB_URI );
+
 db.once('open', () => {
+  console.log("DB is connected");
   app.listen(PORT, () => {
     console.log(`🌍 Now listening on localhost:${PORT}`);
     console.log(`Use GraphQL at http://localhost:${PORT}${server.graphqlPath}`);
