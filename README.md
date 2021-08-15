@@ -20,4 +20,12 @@ GNU General Public License v3.0
 - MongoDB
 
 
+## Link URL to GitHub Repository
+
+https://github.com/PrinceAdelXX/Book-Search-Engine
+
+## Link URL of Deployed app to Heroku
+
+https://potterscape.herokuapp.com/
+
 
